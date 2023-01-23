@@ -1,4 +1,4 @@
-# smart-review-model
+# ReviewsResponseNLP
 TLDR: Model that uses NLP/sentiment analysis to generate intelligent replies to customer reviews.
 
 Over the past few years, the popularity of online retailers has risen exponentially. This increase has made shopping online commonplace, leading to a dramatic shift in consumer leverage. Customers now have access to many product offerings online relative to older brick-and-mortar stores. All these items have their page with more information than we have ever had access to before. 
@@ -11,11 +11,9 @@ In comparison, 33% have a shorter time frame of 3 days or less. Therefore, to ma
 
 When thinking about the motivation for our topic, we wanted to create a project that we could work on as a group after this class and be able to work with companies to iterate and strengthen our idea. So, when thinking about what we can work on after this class, we thought we would like to use a dataset and provide valuable data to businesses and also provide curated responses to their customers. So, we created this idea to sell as B2B software, allowing companies to understand customer reviews better and digest them in an accessible format. We hope to be able to work with companies, aggregate their reviews through web scraping, run NLP to understand sentiment analysis, and then provide individually-catered responses to these companies.
 
-We aim to create a model that can efficiently, effectively, and meaningfully generate individually-catered responses to customer reviews. Our model will have two major components:
+We created a model that efficiently, effectively, and meaningfully generated individually-catered responses to customer reviews. Our model had two major components:
 
 
 
 A natural language processing component that identifies sentiment, keywords, and actionable items in a customer review, and
 A response-generating model that uses the above information to create a meaningful customer response.
-
-We will need to isolate (or manually gather) a robust dataset of customer reviews that we can train/test our model on. Then, we will need to either build from scratch or borrow from other open-source models to create our proprietary review response model.
